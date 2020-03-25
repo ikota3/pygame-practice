@@ -25,7 +25,7 @@ def draw_circle():
         # flip the display
         pygame.display.flip()
 
-    # pygame.display.quit()
+    # destroy pygame
     pygame.display.quit()
 
 
