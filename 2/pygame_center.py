@@ -25,6 +25,7 @@ def center_position():
         (SCREEN_WIDTH - surf.get_width()) // 2,
         (SCREEN_HEIGHT - surf.get_height()) // 2
     )
+    # blit stands for Block Transfer
     screen.blit(surf, surf_center)
     # updates the entire screen with everything
     pygame.display.flip()
