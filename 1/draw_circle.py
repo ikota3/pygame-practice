@@ -3,9 +3,11 @@ import pygame
 
 def draw_circle():
     # initialize pygame
+    # calling init to all module
     pygame.display.init()
 
     # set up the drawing window
+    # pygame.display.set_mode() returns a Surface representing the visible part to the window
     screen = pygame.display.set_mode([250, 250])
 
     running = True
@@ -23,6 +25,8 @@ def draw_circle():
         pygame.draw.circle(screen, (0, 0, 255), (125, 125), 75)
 
         # flip the display
+        # the content of drawing circle will be pushed to the Surface
+        # when you call pygame.display.flip()
         pygame.display.flip()
 
     # destroy pygame
