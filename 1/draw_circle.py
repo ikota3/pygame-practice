@@ -3,7 +3,7 @@ import pygame
 
 def draw_circle():
     # initialize pygame
-    # calling init to all module
+    # calling init to display module
     pygame.display.init()
 
     # set up the drawing window
@@ -29,7 +29,7 @@ def draw_circle():
         # when you call pygame.display.flip()
         pygame.display.flip()
 
-    # destroy pygame
+    # destroy display module
     pygame.display.quit()
 
 
