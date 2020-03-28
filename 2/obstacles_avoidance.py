@@ -131,7 +131,6 @@ all_sprites.add(player)
 # set up background music
 # Sound source: http://ccmixter.org/files/Apoxode/59262
 # License: https://creativecommons.org/licenses/by/3.0/
-print(os.path.join(SOUND_DIR, 'ApoxodeElectric1.mp3'))
 pygame.mixer.music.load(os.path.join(SOUND_DIR, 'ApoxodeElectric1.mp3'))
 pygame.mixer.music.play(loops=-1)
 
