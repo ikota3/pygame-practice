@@ -99,7 +99,7 @@ class Cloud(pygame.sprite.Sprite):
 
 # setup for sounds
 # if you want change the default of mixer,
-# you have to initialize when the all module initialized
+# you have to initialize before the all module initialize
 pygame.mixer.init()
 
 # initializing all pygame module
